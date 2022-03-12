@@ -1,0 +1,46 @@
+/*Global*/
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: rgba(55, 52, 45, 0.838);
+    font-size: 16px;
+  }
+  
+  /*NavBar*/
+  header{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+  }
+  header >ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  
+  }
+  header >ul> li {
+  height: 3rem;
+  width: 90%;
+  background-color: rgb(70, 56, 56);
+  color: blanchedalmond;
+  border: burlywood solid 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  header li:hover{
+    background-color: rgb(36, 28, 28);
+  }
+  
+  header > div {
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(124, 99, 52);
+    }
