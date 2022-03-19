@@ -26,7 +26,7 @@ const ItemDetailListContainer = () => {
 
     return (
         <>
-        <div className="flex" >
+        <div className="dispDeArticulos" >
           {items.map(e => 
           <ItemDetial key={e.id} item={e} ></ItemDetial>
           )}

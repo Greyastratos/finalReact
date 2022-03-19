@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Home from './components/Home';
 import { CartContextProvider } from './components/CartContext';
+import ProductosListContainer from './rendercondicional/ProductosListContainer';
 function App() {
   return (
    <>
@@ -20,7 +21,11 @@ function App() {
    </Routes>
    </BrowserRouter> 
    </CartContextProvider>
- 
+    <footer>
+      <div>
+        <ProductosListContainer></ProductosListContainer>
+      </div>
+    </footer>
    </>
   );
 }

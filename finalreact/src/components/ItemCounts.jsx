@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-
 const ItemCounts = ({stock, addToCart}) => {
     const [count, setCount]=useState(1);
 
@@ -24,7 +23,7 @@ function resta(){
                 <button onClick={suma} >+</button>
             </div>
             <div>
-                <button on onClick={()=>{addToCart(count)}} >agregar al carrito</button>
+                <button  onClick={()=>{addToCart(count)}} >agregar al carrito</button>
                 <small>stock disponible {stock}</small>
             </div>
         </div>

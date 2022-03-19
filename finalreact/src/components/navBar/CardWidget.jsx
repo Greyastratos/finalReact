@@ -1,11 +1,12 @@
 import React from 'react'
 import { FaShoppingCart } from "react-icons/fa";
+import ItemCounts from '../ItemCounts';
 
-const CardWidget = ({qty}) => {
+const CardWidget = () => {
     return (
         <div>
             <FaShoppingCart/>
-            <span>({qty})</span>
+            <span>()</span>
         </div>
     )
 }
